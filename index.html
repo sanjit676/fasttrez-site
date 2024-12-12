@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Krishan Chakroborty">
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/d7dc2731d7.js" crossorigin="anonymous"></script>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+  <title>Fasttrez</title>
+</head>
+
+<body>
+  
+<!----------------- start header 1------------------>
+  <!-----------------------krish----------------------------------- toggle bar nav ----------------------------------------------------------------->
+
+  <nav class="navbar navbar-expand-lg bg_primary text-center" style="position: fixed; top:0; width: 100%; z-index: 2;">
+    <div class="container text-center ">
+
+      <button class="navbar-toggler three_lines " type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+      <span><i class="fa-solid fa-bars fa-lg" style="color: #ffffff;"></i></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white a" aria-current="page" href="#"> <b>Fasttrez</b> </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white a" href="#">About us</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white a" href="#fasttrez-services">Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white a" href="#fasttrez-contact">Contact</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white a" href="#fasttrez-testimonials">Testimonials</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+  <!--------------------------------------------------------- toggle bar nav ends ----------------------------------------------------------------->
+  <!------------------------- end header 1--------------------------->
+<br><br>
+
+
+
+<!-- Carousel (Slider) Start -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-12">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          
+          <!-- Carousel Item Template -->
+          <div class="carousel-item active slider_img1 text-center size">
+            <div class="p-5 mt-5">
+              <h5 data-aos="fade-right" data-aos-duration="3000" class="slider_text text-white">
+                Your Growth, Our Code <br> Professional Website Development Services!
+              </h5>
+              <p data-aos="fade-left" data-aos-duration="3000" class="slider_text_p text-white">
+                Your growth, our code: professional website development services designed to elevate your business. <br>
+                 We create modern, responsive websites tailored to your unique goals, ensuring exceptional <br>
+                  user experiences and seamless functionality. Partner with us to build a <br>
+                  strong online presence and drive measurable success in the digital space.
+              </p>
+              <button data-aos="fade-up" data-aos-duration="3000" class="btn btn-primary slider_text_button">
+                <a href="#fasttrez-contact" class="text-white">Contact Us</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="carousel-item slider_img2 text-center size">
+            <div class="p-5 mt-5">
+              <h5 data-aos="fade-right" data-aos-duration="3000" class="slider_text text-white">
+                Building Scalable Apps <br> That Drive Business Growth!
+              </h5>
+              <p data-aos="fade-left" data-aos-duration="3000" class="slider_text_p text-white">
+                Build scalable applications that fuel business growth by optimizing performance, <br>
+                 enhancing user experience, and enabling seamless expansion to meet increasing demands. <br>
+                Drive success with innovative solutions that support your business objectives.
+              </p>
+              <button data-aos="fade-up" data-aos-duration="3000" class="btn btn-primary slider_text_button">
+                <a href="#fasttrez-contact" class="text-white">Contact Us</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="carousel-item slider_img3 text-center size">
+            <div class="p-5 mt-5">
+              <h5 data-aos="fade-right" data-aos-duration="3000" class="slider_text text-white">
+                Let's Grow Your Business <br> Together with Digital Marketing!
+              </h5>
+              <p data-aos="fade-left" data-aos-duration="3000" class="slider_text_p text-white">
+                Let's grow your business together with digital marketing! We craft tailored strategies, <br>
+                 including SEO, social media, and targeted advertising, to attract your ideal audience and  <br>
+                 convert them into loyal customers. Using advanced analytics, we optimize campaigns for maximum  <br>
+                 impact, driving measurable growth and establishing a thriving online presence for your business.
+              </p>
+              <button data-aos="fade-up" data-aos-duration="3000" class="btn btn-primary slider_text_button">
+                <a href="#fasttrez-contact" class="text-white">Contact Us</a>
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Carousel (Slider) End -->
+
+<!-- Our Services Section Start -->
+<div class="services" id="fasttrez-services">
+  <!-- Title Part -->
+  <h4 class="text-primary">Our Services</h4>
+  <h2 class="text-dark">We Offer All Kinds of<br>IT and Digital Marketing Services</h2>
+  <figure><img src="images/Line 19.png" alt="Line Separator" /></figure>
+</div>
+
+<div class="container-fluid">
+  <!-- First Row -->
+  <div class="row d-flex justify-content-evenly">
+    <div class="col-lg-3 col-md-5 col-sm-5">
+      <div class="card">
+        <figure><img src="images/web-development-icon.png" alt="Web Development Icon" /></figure>
+        <h5>Web Development</h5>
+        <p>
+          Comprehensive web development services to create robust, user-friendly websites and applications tailored to your business needs.
+        </p>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-5 col-sm-5">
+      <div class="card">
+        <figure><img src="images/web-designing-icon.png" alt="Web Designing Icon" /></figure>
+        <h5>Desktop Applications</h5>
+        <p>
+          Custom desktop applications to enhance business efficiency with user-friendly software solutions.
+        </p>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-5 col-sm-5">
+      <div class="card">
+        <figure><img src="images/mobile-application-icon.png" alt="Mobile Applications Icon" /></figure>
+        <h5>Mobile Applications</h5>
+        <p>
+          Custom mobile app development to create engaging, high-performance apps for your business.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <!-- Second Row -->
+  <div class="row d-flex justify-content-evenly">
+    <div class="col-lg-3 col-md-5 col-sm-5">
+      <div class="card">
+        <figure><img src="images/cloud-devops-icon.png" alt="Cloud & DevOps Icon" /></figure>
+        <h5>Cloud & DevOps</h5>
+        <p>
+          Comprehensive Cloud and DevOps Solutions for Streamlined Operations and Business Growth.
+        </p>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-5 col-sm-5">
+      <div class="card">
+        <figure><img src="images/digital-marketing-icon.png" alt="Digital Marketing Icon" /></figure>
+        <h5>Digital Marketing</h5>
+        <p>
+          Effective digital marketing strategies to boost online visibility, engagement, and conversions.
+        </p>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-5 col-sm-5">
+      <div class="card">
+        <figure><img src="images/graphic-designing-icon.png" alt="Graphic Designing Icon" /></figure>
+        <h5>Graphic Designing</h5>
+        <p>
+          Creative graphic design services to craft visually appealing designs that resonate with your brand.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Our Services Section End -->
+
+  <!---------------------krish----------------------------------- Our Testimonials part starts------------------------------------------------------------------->
+  <div class="container-fluid bg_img ">
+    <!-- title part -->
+
+    <div class="row" id="fasttrez-testimonials">
+      <div class="col-lg-12 text-center">
+        <h2 class="text-white our_services_mt ">Our Testimonials</h2>
+        <figure><img src="images/line-20.png" /></figure>
+      </div>
+    </div>
+
+  <div class="owl-carousel owl-theme text-center ">
+       
+
+    <div class="item ">
+      <div class="border bg-white" style="padding: 59px 19px 56px 19px;">
+        <img class="img-thumbnail commas"
+          src="https://cdn3d.iconscout.com/3d/premium/thumb/quote-5175044-4334312.png?f=webp"> <br><br>
+
+        <p class="text-secondary"> Capitalize on low hanging fruit to identify a ballpark value added  activity to beta test. Override the digital divide with additional clickthroughs from DevOs. Nanotechnology immersion along the information on highway.</p>
+
+      </div>
+      <div class="img_position">
+        <a href="#"> <img class="img-thumbnail tony_img" src="https://thehairstylish.com/wp-content/uploads/2022/01/Short-Natural-Haircuts-for-Black-Females-With-Round-Faces-4.jpg">
+        </a>
+        <p class="text-white">Tony Stark</p>
+      </div>
+     
+           
+       </div>
+
+
+
+
+
+       
+       <div class="item" >
+        <div class="border bg-white" style=" padding: 59px 19px 56px 19px;">
+          <img class="img-thumbnail commas"
+            src="https://cdn3d.iconscout.com/3d/premium/thumb/quote-5175044-4334312.png?f=webp">  <br><br>
+  
+          <p class="text-secondary"> Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOs. Nanotechnology immersion along the information on highway.</p>
+  
+        </div>
+        <div class="img_position">
+          <a href="#"> <img class="img-thumbnail tony_img" src="https://static.generated.photos/vue-static/face-generator/landing/wall/7.jpg">
+          </a>
+          <p class="text-white">Tony Stark</p>
+        </div>
+       
+             
+         </div>
+
+
+
+
+       
+         <div class="item" >
+          <div class="border bg-white " style="padding: 59px 19px 56px 19px;">
+            <img class="img-thumbnail commas "
+              src="https://cdn3d.iconscout.com/3d/premium/thumb/quote-5175044-4334312.png?f=webp">  <br><br>
+    
+            <p class="text-secondary"> Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOs. Nanotechnology immersion along the information on highway.</p>
+    
+          </div>
+          <div class="img_position">
+            <a href="#"> <img class="img-thumbnail tony_img " src="https://static.generated.photos/vue-static/face-generator/landing/wall/12.jpg">
+            </a>
+            <p class="text-white">Tony Stark</p>
+          </div>
+         
+           </div>
+</div> 
+
+<br><br><br>
+      
+</div>
+
+
+ <!---------------------krish----------------------------------- Our Testimonials part ends------------------------------------------------------------------->
+
+      <!---------------------------------------- first part ----------------------------------->
+<div class="mt-5" style="display: flex; justify-content: center;">
+  <h1>Our Team</h1>
+</div>
+<figure style="display: flex; justify-content: center;"> <img src="images/Line 19.png" alt=""></figure>
+      
+<br><br>
+
+<div class="container text-center ">
+  <div class="owl-carousel owl-theme ">
+       
+    <div class="item">
+        <div class="box_border" >
+            <img class="img-fluid img_fluid2"
+              src="images//sanjit-new.jpg"
+              alt="">
+  <br><br>
+            <h6> <b>Sanjit Lungeli</b> </h6>
+            <p class="text-primary">Senior Software Engineer</p>
+            <p>Sanjit Lungeli is the co-founder and CEO of Fasttrez. He has extensive experience in desktop, web, and mobile apps using Java, Python, JavaScript, C#, Django, Node.js, Angular, and React.js.
+            </p>
+  
+            <span>
+              <a href="https://www.facebook.com/profile.php?id=100095562185353"><i class="fa-brands fa-facebook-f fa-xs" style="color: #000000;"></i></a>
+              <a href="https://x.com/sanjit_lungeli"><i class="fa-brands fa-x-twitter fa-xs ms-3" style="color: #000000;"></i></a>
+              <a href="https://www.linkedin.com/in/sanjit-lungeli/"><i class="fa-brands fa-linkedin-in fa-xs ms-3" style="color: #0a0a0b;"></i></a>
+              <a href="https://www.instagram.com/sanjit_lungeli123"><i class="fa-brands fa-instagram fa-xs ms-3" style="color: #090a0b;"></i></a>
+            </span>
+          </div>
+           
+       </div>
+
+       <div class="item">
+        <div class="box_border" >
+            <img class="img-fluid img_fluid2"
+              src="images/krishna-chakraborty.jpg"
+              alt="">
+  <br><br>
+            <h6> <b>Krishan Chakroborty</b> </h6>
+            <p class="text-primary">Senior UI/UX Designer</p>
+            <p>
+              Krishan Chakraborty is an experienced UI/UX designer at Fasttrez. With a strong background in creating visually appealing 
+               and user-friendly designs, he specializes in delivering exceptional experiences...
+            </p>
+            <span>
+              <a href="#"><i class="fa-brands fa-facebook-f fa-xs" style="color: #000000;"></i></a>
+              <a href="#"><i class="fa-brands fa-x-twitter fa-xs ms-3" style="color: #000000;"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin-in fa-xs ms-3" style="color: #0a0a0b;"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram fa-xs ms-3" style="color: #090a0b;"></i></a>
+            </span>
+          </div>
+           
+       </div>
+
+       <div class="item" >
+
+        <div class="box_border" >
+            <img class="img-fluid img_fluid2"
+              src="images/aryan-hussain.jpg"
+              alt="">
+          <br><br>
+  
+            <h6> <b>Aryan Hussain</b> </h6>
+  
+            <p class="text-primary">Senior Software Engineer</p>
+            <p>
+              Aryan Hussain is a dedicated senior software developer and co-founder/CTO at Fasttrez. 
+              He has hands-on experience in building web and mobile apps using JavaScript, Python, 
+              React...
+            </p>
+  
+            <span>
+              <a href="#"><i class="fa-brands fa-facebook-f fa-xs" style="color: #000000;"></i></a>
+              <a href="#"><i class="fa-brands fa-x-twitter fa-xs ms-3" style="color: #000000;"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin-in fa-xs ms-3" style="color: #0a0a0b;"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram fa-xs ms-3" style="color: #090a0b;"></i></a>
+            </span>
+          </div>
+           
+       </div>
+       
+       <div class="item" >
+
+        <div class="box_border" >
+            <img class="img-fluid img_fluid2"
+              src="images/sital-devi-thapa.jpg"
+              alt="">
+            <br><br>
+  
+            <h6> <b>Sital Devi Thapa</b> </h6>
+  
+            <p class="text-primary">Junior UI/UX Designer</p>
+            <p>
+              Sital Devi Thapa is a junior UI/UX designer at Fasttrez with impressive skills. 
+              She is dedicated to creating engaging and user-friendly designs, combining creativity 
+              and technical expertise to del...
+            </p>
+  
+            <span>
+              <a href="#"><i class="fa-brands fa-facebook-f fa-xs" style="color: #000000;"></i></a>
+              <a href="#"><i class="fa-brands fa-x-twitter fa-xs ms-3" style="color: #000000;"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin-in fa-xs ms-3" style="color: #0a0a0b;"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram fa-xs ms-3" style="color: #090a0b;"></i></a>
+            </span>
+          </div>
+       </div>
+   
+</div>
+</div>
+
+  <!-------------------krish----------------------- Our team part ends here------------------------------------------->
+
+
+<br><br><br><br>
+
+
+
+  <!--------------------------------------------- Technology we use start-------------------------------------------->
+ 
+        
+  <div class="container-fluid text-center technology-bg technology-bg2 p-5 ">
+
+
+   
+
+
+
+   
+
+
+    <!------------------------------------------ first part ---------------------------------------------->
+    <div class="row d-flex justify-content-evenly " style="margin-top: 80px;">
+
+
+      <div class="row ">
+        <div class="col-lg-12">
+          <div class="services ">
+            <h2 class="text-white">Technology We Use</h2>
+            <figure><img src="images/line-20.png" /></figure>
+          </div>
+        </div>
+      </div>
+
+
+<br><br><br><br>
+
+
+      <div class="col-lg-3 ">
+        <!-- ----------------------------------------------------------------------------- -->
+        <div class="border1">
+          <figure><img src="images/react-icon.png" /></figure>
+     <h5> <b> ReactJs | NextJs</b> </h5>
+          <p class="pre">
+            Modern web apps with React and NextJs.
+          </p>
+
+        </div>
+        <!-- ----------------------------------------------------------------------------- -->
+      </div>
+
+
+      <!-- ----------------------------------------------------------------------------- -->
+      <div class="col-lg-3  technology_gap">
+        <div class="border1">
+          <figure><img src="images/shopify-icon.png" /></figure>
+        <h5> <b> Wordpress | Shopify</b> </h5>
+          <p class="pre">Build powerful websites and e-commerce stores.</p>
+        </div>
+      </div>
+      <!-- ----------------------------------------------------------------------------- -->
+
+      <!-- ----------------------------------------------------------------------------- -->
+      <div class="col-lg-3  technology_gap2">
+        <div class="border1">
+          <figure><img src="images/nodejs-icon.png" /></figure>
+           <h5> <b>NodeJs | NestJs</b> </h5>
+          <p class="pre">Scalable backend with Node.js and NestJS.
+          </p>
+        </div>
+      </div>
+      <!-- ----------------------------------------------------------------------------- -->
+    </div>
+    <!-- first part ends here -->
+
+
+    <br><br><br><br>
+
+
+    <!--------------------------------------------------- second part ---------------------------------------->
+
+    <div class="row d-flex justify-content-evenly ">
+      <!-- ----------------------------------------------------------------------------- -->
+      <div class="col-lg-3  ">
+        <div class="border1">
+          <figure><img src="images/JavaFX.png" width="127px" height="127px" /></figure>
+            <h5> <b> Electron | Qt | JavaFX </b> </h5>
+          <p class="pre">Build desktop apps with Electron, Qt, and JavaFX.</p>
+        </div>
+      </div>
+      <!-- ----------------------------------------------------------------------------- -->
+
+      <!-- ----------------------------------------------------------------------------- -->
+      <div class="col-lg-3  technology_gap">
+        <div class="border1">
+          <figure><img src="images/Angular-icon.png" /></figure>
+          <h5> <b> Angular</b> </h5>
+          <p class="pre">Robust Single Page web apps with Angular.</p>
+        </div>
+      </div>
+      <!-- ----------------------------------------------------------------------------- -->
+
+
+      <!-- ----------------------------------------------------------------------------- -->
+      <div class="col-lg-3  technology_gap2">
+        <div class="border1">
+          <figure><img src="images/dotnet-icon.png" /></figure>
+           <h5> <b> Dot Net</b> </h5>
+          <p class="pre">Build cross-platform applications with Dot NET.</p>
+          </p>
+        </div>
+      </div>
+      <!-- ----------------------------------------------------------------------------- -->
+    </div>
+
+    <!-- second part ends-->
+
+    <br><br><br><br>
+
+    <!------------------------------------------------ 3rd part ---------------------------------------------->
+
+    <div class="row d-flex justify-content-evenly  mb-5">
+
+
+      <!-- ----------------------------------------------------------------------------- -->
+      <div class="col-lg-3 ">
+        <div class="border1 ">
+          <figure><img src="images/figma-icon.png" /></figure>
+          <h5> <b> Figma</b> </h5>
+          <p class="pre">Design tools for web and app interfaces.</p>
+        </div>
+      </div>
+      <!-- ----------------------------------------------------------------------------- -->
+
+
+      <!-- ----------------------------------------------------------------------------- -->
+      <div class="col-lg-3  technology_gap">
+        <div class="border1">
+          <figure><img src="images/python.svg" width="127px" height="127px"/></figure>
+           <h5> <b>Django</b> </h5>
+          <p class="pre">Fast web APIs with Django and Fast API.</p>
+        </div>
+      </div>
+      <!-- ----------------------------------------------------------------------------- -->
+
+      <!-- ----------------------------------------------------------------------------- -->
+      <div class="col-lg-3  technology_gap2">
+        <div class="border1">
+          <figure><img src="images/flutter.svg" width="127px" height="127px"/></figure>
+          <h5> <b> React Native | Flutter</b> </h5>
+          <p class="pre">Cross-platform mobile apps with React Native and Flutter.</p>
+        </div>
+      </div>
+      <!-- ----------------------------------------------------------------------------- -->
+
+    </div>
+
+    <!----------------------------------------------------- 3rd part ends ----------------------------------------------->
+  </div>
+  </div>
+
+  <!-- Technology we use  ends here-->
+
+  <!---------------------------------------------- contact form start ---------------------------------------->
+
+  <div class="services" style="margin-top: 50px;">
+    <h2 class="text-dark"> <b>Contact Us</b> </h2>
+    <figure><img src="images/Line 19.png" /></figure>
+  </div>
+
+
+
+  <div class="contact-form" id="fasttrez-contact">
+    <div class="contain">
+
+
+      <div class="form">
+        <h6 class="get">Get in Touch</h6>
+        <div class="container">
+
+          <form action="action_page.php">
+
+            <input type="text" id="fname" name="name" placeholder="Name*">
+
+
+            <div class="display_field">
+              <input type="text" id="mail" name="email" placeholder="Email*">
+              <input type="text" id="Mobil" name="Mobile" placeholder="Mobile">
+            </div>
+
+
+            <textarea id="subject" name="Message" placeholder="Message*"></textarea>
+
+
+           <!-- <span><input type="Submit" value="Send Message"></span>  -->
+
+           <button class="btn btn-primary button_size mt-4"> <i class="fa-solid fa-message fa-sm" style="color: #ffffff;"></i> Send Message</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="information">
+        <h3> <b>Contact Information</b> </h3>
+        <p>
+          Fasttrez offers digital marketing and IT services to drive business growth.
+        </p>
+        <div class="display_phone">
+          <div>
+            <h5>Phone</h5>
+            <p>06000269395</p>
+          </div>
+          <div>
+            <h5>Location</h5>
+            <p>Ramagondanahalli, Bangalore</p>
+          </div>
+        </div>
+        <div class="display_phone">
+          <div>
+            <h5>Official Email</h5>
+            <p>contact@fasttrez.site</p>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--------------------------------------------- contact-form-ends------------------------------------------->
+
+  <!---------------------------------------------------- start footer ----------------------------------------------------->
+
+  <div class="main-footer">
+    <div class="footer">
+      <div class="paragraph">
+        <div class="link ">
+          <h5 class="footer_title">Fasttrez</h5>
+          <p class="sedut">
+          Digital marketing and IT services agency providing innovative solutions to drive business growth and success.
+          </p>
+          <div class="fa-icon ">
+           
+            <span>
+              <a href="https://www.facebook.com/profile.php?id=61569272999093"><i class="fa-brands fa-facebook-f fa-md" style="color: #000000;"></i></a>
+              <a href="https://x.com/fasttrez"><i class="fa-brands fa-x-twitter fa-md ms-3" style="color: #000000;"></i></a>
+              <a href="https://www.linkedin.com/company/fasttrez"><i class="fa-brands fa-linkedin-in fa-md ms-3" style="color: #0a0a0b;"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram fa-md ms-3" style="color: #090a0b;"></i></a>
+            </span>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="link2">
+        <h5 class="footer_title footer_title2">Services</h5>
+        <ul>
+          <li class="fot-link"><a href="#">Digital Marketing</a></li>
+          <li class="fot-link"><a href="#">Graphic Designing</a></li>
+          <li class="fot-link"><a href="#">Website Development</a></li>
+          <li class="fot-link"><a href="#">Mobile App Development</a></li>
+          <li class="fot-link"><a href="#">Desktop App Development</a></li>
+        </ul>
+      </div>
+
+      <div class="link">
+        <h5 class=" footer_title  ">Contact info</h5>
+
+
+        <div class="location">
+          <Figure><img src="images/arcticons_baidu-map.png" /></Figure>
+          <div>
+            <p>5th Cross Road, Ramagondanahalli, Whitefield, Bangalore</p>
+          </div>
+        </div>
+
+        <div class="location">
+          <Figure><img src="images/phone no (1).png" /></Figure>
+          <div>
+            <p>+91-60002-69395</p>
+          </div>
+        </div>
+
+        <div class="location">
+          <Figure><img src="images/support.png" /></Figure>
+          <div>
+            <p>contact@fasttrez.site</p>
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+  <!----------------------------------------------------------- footer end -------------------------------------------------------------->
+
+  <!---------------------------------- footer-bottom-bar------------------------------->
+
+  <div class=" container-fluid footer_bottom_container">
+    <div class="row header_container container ">
+
+
+
+      <div class="col-lg-6 d-flex justify-content-center">
+        <div class="text-center">
+          <h7 class="fast"> <b>&copy; Fasttrez, Bangalore, 2024</b> </h7>
+        </div>
+      </div>
+
+      <div class="col-lg-6 d-flex justify-content-center">
+        <ul class="display_flex botom-link text-center">
+          <li><a href="#"><b>Home</b> </a></li>
+          <li><a href="#">  <b>About us</b> </a></li>
+          <li><a href="#fasttrez-services">  <b>Services</b> </a></li>
+          <li><a href="#fasttrez-contact"> <b>Contact</b> </a></li>
+          <li><a href="#fasttrez-testimonials"> <b>Testimonials</b> </a></li>
+        </ul>
+      </div>
+      
+  </div>
+</div>
+ 
+
+  <!-------------------------------------- footer-bottom bar ends-------------------------------------->
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:100,
+    nav:false,
+    dots:false,
+    autoplay:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+    </script>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+  integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script src="jequery.js"></script>
+
+<script>
+  AOS.init();
+</script>
+
+</html>
